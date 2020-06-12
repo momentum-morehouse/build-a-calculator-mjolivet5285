@@ -1,11 +1,48 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<link href="main.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-	<script src="main.js">
-	</script>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>My Calc</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+    <div class="container">
+    
+
+<!--<"row 1">-->
+        <input type="text" id="edu" class="answer"/>
+        <div class="box1">
+        <input class="box1" type="button" value="c" onclick="clr()"/></div> 
+<!-- <End of row 1> -->
+
+ <!-- <"row 2"> -->
+        <div>  <input class="box1" type="button" value="7" onclick="dis('7')"/></div>
+        <div> <input class="box1" type="button" value="8" onclick="dis('8')"/></div>
+        <div> <input class="box1" type="button" value="9" onclick="dis('9')"/></div>
+        <div>  <input class="box1" type="button" value="X" onclick="dis('*')"/></div>
+<!-- <End of row 2> -->
+ 
+<!-- <"row 3"> -->
+        <div><input class="box1" type="button" value="4" onclick="dis('4')"/></div>
+        <div><input class="box1" type="button" value="5" onclick="dis('5')"/></div>
+        <div><input class="box1" type="button" value="6" onclick="dis('6')"/></div>
+        <div><input class="box1" type="button" value="/" onclick="dis('/')"/></div>
+<!-- <End of row 3> -->
+
+<!--<"row 4"--> 
+    <div><input class="box1" type="button" value="1" onclick="dis('1')"/></div>
+    <div><input class="box1" type="button" value="2" onclick="dis('2')"/></div>
+    <div><input class="box1" type="button" value="3" onclick="dis('3')"/></div>
+    <div><input class="box1" type="button" value="-" onclick="dis('-')"/></div>
+<!-- </div> -->
+
+<!--<"row 5"--> 
+<div><input class="box1" type="button" value="." onclick="dis('.')"/></div>
+<div><input class="box1" type="button" value="0" onclick="dis('0')"/></div>
+<div><input class="box1" type="button" value="=" onclick="solve()"/></div>
+<div><input class="box1" type="button" value="+" onclick="dis('+')"/></div>
+<!--<End of row 5>--> 
+</body>
+</html>
