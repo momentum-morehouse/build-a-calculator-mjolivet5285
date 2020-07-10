@@ -1,8 +1,8 @@
-.container{
+dj.container{
 margin-left: 410px;
 width:450px;
 height:550px;
-flex-flow:row wrap;
+flex-flow:row-wrap;
 background-color: rgb(131, 131, 130);
 border: 6px solid rgb(69, 120, 179);
 justify-content: space-around;
@@ -25,5 +25,4 @@ background-color: rgb(216, 137, 47);
 border: 1px solid black;
 }
 body{
-    background-image: url("Beaumont PC.jpeg");
-    
+    background-image: url("Beaumont PC.jpeg")}
